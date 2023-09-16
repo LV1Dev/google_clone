@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'ProductSans';
-    src: url('assets/fonts/ProductSans-Light.ttf') format('truetype'),
-         url('assets/fonts/ProductSans-Bold.ttf') format('truetype'),
-         url('assets/fonts/ProductSans-Medium.ttf') format('truetype');
+    src: url('ProductSans-Light.ttf') format('truetype'),
+         url('ProductSans-Bold.ttf') format('truetype'),
+         url('ProductSans-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
