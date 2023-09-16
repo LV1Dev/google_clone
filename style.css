@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'ProductSans';
+    src: url('assets/fonts/ProductSans-Light.ttf') format('truetype'),
+         url('assets/fonts/ProductSans-Bold.ttf') format('truetype'),
+         url('assets/fonts/ProductSans-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+
+* {
+    background-color: #202124;
+}
+
+.main {
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Set the flex direction to column */
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'ProductSans', sans-serif;
+    font-size: 7vh;
+    font-weight: light;
+    color: #ffffff;
+    margin-bottom: 20px; /* Add some margin below the h1 */
+}
+
+.search {
+margin: 0 auto;
+width: 700px;
+height: 50px;
+border-radius:40px;
+border: none;
+outline: 1px solid #9aa0a6;
+color: #ffffff;
+background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"%3E%3Cpath fill="%239aa0a6" d="M14.25 12.817l-3.432-3.432A5.984 5.984 0 0 0 12 6a6 6 0 1 0-6 6c1.581 0 3.027-.617 4.125-1.623l3.432 3.432a.75.75 0 0 0 1.06-1.06zM2 6a4 4 0 1 1 8 0 4 4 0 0 1-8 0z"%3E%3C/path%3E%3C/svg%3E'); /* replace 'search-icon.png' with your image file path */
+background-size: 20px 18px;
+
+  background-position: 15px center; /* adjust the position of the icon as needed */
+  background-repeat: no-repeat;
+  padding-left: 40px;
+
+}
+
+.search:hover {
+    background-color: #303134;
+    outline: 1px solid #303134;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-group button {
+    margin-right: 20px; /* Adds some space between the buttons */
+    margin-top: 35px;
+    width: 180px;
+height: 40px;
+border-radius: 5px;
+outline: none;
+border: none;
+background-color: #303134;
+color: #ffffff;
+  }
+  
+
+  .button-group :hover {
+    outline: 1px solid #9aa0a6;
+  }
+
+
+footer {
+    font-family: 'ProductSans', sans-serif;
+    background-color: #171717;
+    color: #dadada;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    width: 100%;
+    font-size: 1.3vh;
+    outline: 1px solid #3c4043;
+    text-decoration: none;
+    
+}
+
+footer p {
+  margin-right: 40px;
+  display: inline-block;
+  background-color: #171717;
+
+}
+
+p {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: #171717;
+  color: #dadada;
+}
+
+.fa-solid {
+  background-color: #171717;
+}
+
+footer .carb {
+  background-color: #171717;
+
+  
+}
+
+
+
